@@ -41,6 +41,7 @@ info = "A backend engineer with interest in infra, data and systems based out of
   icon = "fa-brands fa-strava fa-2x"
   weight = 6
   url = "https://strava.com/athletes/38010951"
+
 [[menu.main]]
   name = "Blog"
   weight = 1
