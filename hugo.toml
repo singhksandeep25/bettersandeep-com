@@ -1,0 +1,53 @@
+baseURL = 'https://bettersandeep.com/'
+languageCode = 'en-us'
+title = 'Sandeep Singh'
+theme = 'hugo-coder'
+
+[params]
+colorScheme = "dark"
+# Hide the toggle button, along with the associated vertical divider
+hideColorSchemeToggle = true
+HeadTitle = "Sandeep Singh's personal website"
+since = "1998"
+info = "A backend engineer with interest in infra, data and systems based out of Bengaluru, India"
+
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/singhksandeep25"
+[[params.social]]
+  name = "Instagram"
+  icon = "fa-brands fa-instagram fa-2x"
+  weight = 2
+  url = "https://instagram.com/bettersandeep/"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa-brands fa-x-twitter fa-2x"
+  weight = 3
+  url = "https://twitter.com/bettersandeep/"
+[[params.social]]
+  name = "Linkedin"
+  icon = "fa-brands fa-linkedin fa-2x"
+  weight = 4
+  url = "https://www.linkedin.com/in/singhksandeep25/"
+[[params.social]]
+  name = "Email"
+  icon = "fa-solid fa-envelope fa-2x"
+  weight = 5
+  url = "contact@bettersandeep.com"
+[[params.social]]
+  name = "Strava"
+  icon = "fa-brands fa-strava fa-2x"
+  weight = 6
+  url = "https://strava.com/athletes/38010951"
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
+[markup.highlight]
+style = "monokai"
