@@ -5,7 +5,6 @@ theme = 'hugo-coder'
 
 [params]
 colorScheme = "dark"
-# Hide the toggle button, along with the associated vertical divider
 hideColorSchemeToggle = true
 HeadTitle = "Sandeep Singh's personal website"
 since = "1998"
